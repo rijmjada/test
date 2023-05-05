@@ -96,7 +96,7 @@ main .box-1 {
     bottom: 0%;
     z-index: 20;
     max-height: 25em;
-    animation: mover 2s ease-in-out infinite;
+    animation: mover 3s ease-in-out infinite;
 }
 
 .box-burbujas {
