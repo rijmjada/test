@@ -94,7 +94,7 @@ main .box-1 {
     bottom: 0%;
     z-index: 20;
     max-height: 25em;
-    animation: mover 20s ease-in-out infinite;
+    animation: mover 1s ease-in-out infinite;
 }
 
 .box-burbujas {
@@ -121,7 +121,7 @@ main .box-1 {
 @keyframes mover {
 
     50% {
-        transform: translateX(2em);
+        transform: translateX(1em);
     }
     
 }
