@@ -1,12 +1,13 @@
 html {
     overflow-x: hidden;
 }
+
 .navbar-toggler span {
     background-color: #be9eb99c;
 }
 
 body {
-    background:#250821;
+    background: #250821;
     color: whitesmoke;
     overflow-x: hidden;
 }
@@ -89,20 +90,19 @@ main .box-1 {
     justify-content: center;
     align-items: center;
     position: relative;
-
 }
 
 .col-right img {
-    bottom: 0%;
     z-index: 20;
-    max-height: 25em;
-    animation: mover 3s ease-in-out infinite;
+    height: 30rem;
 }
 
 .box-burbujas {
     position: absolute;
-    min-height: 70vh;
-    min-width: 100%;
+    width: 150px;
+    height: 80%;
+    width: 100%;
+
 }
 
 .blob {
@@ -125,18 +125,22 @@ main .box-1 {
     50% {
         transform: translateX(1em);
     }
-    
+
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 
     .box-texto {
         text-align: center;
     }
 
-   .box-skills {
-    margin-top: 25rem;
-   }
+    .box-skills {
+        margin-top: 25rem;
+    }
+
+    .col-right img {
+        height: 20rem;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -145,4 +149,3 @@ main .box-1 {
     }
 
 }
-

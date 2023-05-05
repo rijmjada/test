@@ -6,4 +6,3 @@ let typingText = new Typed(".change-text", {
     backDelay: 1500,
 });
 
-console.log('hi');
