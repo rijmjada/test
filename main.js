@@ -4,4 +4,6 @@ let typingText = new Typed(".change-text", {
     typeSpeed: 85,
     backSpeed: 45,
     backDelay: 1500,
-})
+});
+
+console.log('hi');
