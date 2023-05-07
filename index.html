@@ -8,6 +8,10 @@
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
     <!--MyCSS-->
     <link rel="stylesheet" href="styles.css">
 
@@ -29,6 +33,71 @@
 
         .box-skills {
             background: linear-gradient(to left, pink, 30%, indigo);
+        }
+
+        /* Projects */
+        .box-projects {
+            background-color: rgba(0, 0, 0, 0.363);
+            padding-bottom: 10%;
+        }
+
+        .mypage {
+            background-color: yellow;
+            height: 30vh;
+            width: 50vh;
+            position: relative;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .gym {
+            background-image: url(img/gym-page.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .quilmes {
+            background-image: url(img/quilmes.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bg-effect {
+            background-color: rgba(60, 0, 255, 0.466);
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+            transition: all ease-in-out 1s;
+            border-radius: 15px;
+            opacity: 0;
+        }
+
+        .bg-effect:hover {
+            opacity: 1;
+        }
+
+        .bg-effect a {
+            text-decoration: none;
+        }
+
+        .bg-effect .bi {
+            font-size: x-large;
+            color: wheat;
+            font-family: monospace;
+            font-style: normal;
+        }
+
+        .bg-effect .bi:hover {
+            font-size: xx-large;
+            color: whitesmoke;
         }
     </style>
 
@@ -83,7 +152,7 @@
                 </div>
 
 
-                <div class="col-md-6 col-sm-12 col-right d-flex justify-content-center aling-items-center">
+                <div class="col-md-6 col-sm-12 col-right ">
 
                     <img src="img/pablo-removebg-preview (1).png" alt="">
 
@@ -155,10 +224,62 @@
             </div>
 
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
         <!-- End Skills Section -->
 
+        <!-- ======= Projects Section ======= -->
+        <div class="mt-5 box-projects container">
+            <h4 class="display-5 fw-semibold text-center p-5">Mis Proyectos</h4>
+            <div class="row mx-auto box-pages-cards d-flex justify-content-center text-center">
+
+                <div class="mypage gym col-md-3  px-5 p-lg-0 p-md-0 col-lg-3 col-sm-12 m-3 ">
+                    <div class="bg-effect">
+                        <a href="https://gym-landing-page-peach.vercel.app/" target="_blank"> <i
+                                class="bi bi-browser-chrome"> <br> Web</i>
+                        </a>
+                        <a href="https://github.com/rijmjada/gym-landing-page/" target="_blank"> <i
+                                class="bi bi-file-earmark-code" href=""> <br> Code</i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mypage quilmes col-md-3  px-5 p-lg-0 p-md-0 col-lg-3 col-sm-12 m-3">
+                    <div class="bg-effect">
+                        <a href="https://quilmes-rijmjada.vercel.app/" target="_blank"> <i class="bi bi-browser-chrome">
+                                <br> Web</i>
+                        </a>
+                        <a href="https://github.com/rijmjada/quilmes/" target="_blank"> <i
+                                class="bi bi-file-earmark-code" href=""> <br> Code</i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mypage gym col-md-3  px-5 p-lg-0 p-md-0 col-lg-3 col-sm-12 m-3 ">
+                    <div class="bg-effect">
+                        <a href="https://gym-landing-page-peach.vercel.app/" target="_blank"> <i
+                                class="bi bi-browser-chrome"> <br> Web</i>
+                        </a>
+                        <a href="https://github.com/rijmjada/gym-landing-page/" target="_blank"> <i
+                                class="bi bi-file-earmark-code" href=""> <br> Code</i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mypage quilmes col-md-3  px-5 p-lg-0 p-md-0 col-lg-3 col-sm-12 m-3">
+                    <div class="bg-effect">
+                        <a href="https://quilmes-rijmjada.vercel.app/" target="_blank"> <i class="bi bi-browser-chrome">
+                                <br> Web</i>
+                        </a>
+                        <a href="https://github.com/rijmjada/quilmes/" target="_blank"> <i
+                                class="bi bi-file-earmark-code" href=""> <br> Code</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Projects Section -->
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     </main>
 
