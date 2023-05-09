@@ -1,3 +1,9 @@
+* {
+    font-family: monospace, sans-serif;
+    color: wheat;
+
+}
+
 html {
     overflow-x: hidden;
 }
@@ -13,12 +19,12 @@ body {
 }
 
 
-/*Start section: Navbar*/
+/******************** Navbar ********************/
+/**************************************************/
+
 .navbar {
     background-color: transparent;
 }
-
-
 
 .navbar .container-fluid {
     padding: 0 2.5em;
@@ -44,16 +50,8 @@ body {
 }
 
 
-
-/*End section: Navbar*/
-
-
-
-
-
-/*Start section: Main*/
-
-
+/******************** Main ********************/
+/**************************************************/
 
 main .box-1 {
     display: flex;
@@ -78,13 +76,11 @@ main .box-1 {
     align-items: center
 }
 
-.box-texto {
-}
-.box-texto .parrafo {
-    font-size: x-large;
-}
 
-/*End section: Main*/
+.box-texto .parrafo {
+    font-size: large;
+    letter-spacing: 1px;
+}
 
 
 .col-right {
@@ -98,7 +94,7 @@ main .box-1 {
 
 .col-right img {
     z-index: 20;
-    height: 30rem;
+    max-height: 25rem;
     clip-path: circle(45% at 50%);
 }
 
@@ -106,7 +102,7 @@ main .box-1 {
     position: absolute;
     height: 35rem;
     width: 35rem;
-  
+
 }
 
 .blob {
@@ -123,6 +119,103 @@ main .box-1 {
 .change-text {
     color: #b353a6;
 }
+
+
+/******************** Banner ********************/
+/**************************************************/
+
+.box-icons-skills .fa-brands {
+    font-size: 3.5em;
+}
+
+.title-site-technologies {
+    margin-bottom: 4rem;
+}
+
+.box-icons-skills i {
+    margin: 0 2vh;
+}
+
+
+.box-skills {
+    background: linear-gradient(to left, violet, blueviolet, indigo);
+    text-shadow: 2px 5px 15px black;
+}
+
+
+/******************** Projects ********************/
+/**************************************************/
+
+.box-projects {
+    background: linear-gradient(to left, #461540, #34082f, #33022d);
+    
+    padding-bottom: 10%;
+    min-height: 100vh;
+    margin-top: 5rem;
+}
+
+.mypage {
+    height: 30vh;
+    width: 50vh;
+    position: relative;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.gym {
+    background-image: url(img/gym-page.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.quilmes {
+    background-image: url(img/quilmes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+
+}
+
+.bg-effect {
+    background-color: rgba(0, 0, 0, 0.600);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    transition: all ease-in-out .5s;
+    border-radius: 15px;
+    opacity: 0;
+}
+
+.bg-effect:hover {
+    opacity: 1;
+}
+
+.bg-effect a {
+    text-decoration: none;
+}
+
+.bg-effect .bi {
+    font-size: x-large;
+    color: wheat;
+    font-family: monospace;
+    font-style: normal;
+}
+
+.bg-effect .bi:hover {
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+
 
 @keyframes mover {
 
@@ -149,8 +242,7 @@ main .box-1 {
 
 @media (max-width: 1200px) {
     .box-texto .parrafo {
-        font-size: 18px;
+        font-size: small;
     }
 
 }
-
