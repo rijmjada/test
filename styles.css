@@ -148,7 +148,7 @@ main .box-1 {
 
 .box-projects {
     background: linear-gradient(to left, #461540, #34082f, #33022d);
-    
+
     padding-bottom: 10%;
     min-height: 100vh;
     margin-top: 5rem;
@@ -167,7 +167,7 @@ main .box-1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .quilmes {
@@ -236,7 +236,21 @@ main .box-1 {
     }
 
     .col-right img {
-        height: 20rem;
+        height: 15rem;
+    }
+
+    .box-burbujas {
+        top: -15%;
+        left: 15%;
+        height: 25rem;
+        width: 25rem;
+    }
+
+    .blob {
+        position: absolute;
+        width: 25rem;
+        left: -20%;
+        top:15%;
     }
 }
 
