@@ -86,9 +86,7 @@
         .col-title {
             background: rgba(0, 0, 0, 0.700);
             min-height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        
             writing-mode: vertical-lr;
             text-orientation: upright;
             letter-spacing: 5px;
@@ -97,6 +95,17 @@
             /* elimina seleccion/edición de texto */
         }
 
+        .left-title {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .right-title {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
 
         .left-title h4 {
             font-weight: 800;
@@ -119,7 +128,7 @@
 
         @keyframes move-left-title {
             0% {
-                transform: translateY(100%);
+                transform: translateY(500%);
             }
 
             100% {
@@ -129,7 +138,7 @@
 
         @keyframes move-right-title {
             0% {
-                transform: translateY(-100%);
+                transform: translateY(-500%);
             }
 
             100% {
