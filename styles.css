@@ -58,6 +58,7 @@ main .box-1 {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-bottom: 28vh;
 }
 
 .main-content {
@@ -148,10 +149,7 @@ main .box-1 {
 
 .box-projects {
     background: linear-gradient(to left, #461540, #34082f, #33022d);
-
-    padding-bottom: 10%;
     min-height: 100vh;
-    margin-top: 5rem;
 }
 
 .mypage {
