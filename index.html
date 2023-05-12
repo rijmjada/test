@@ -96,14 +96,15 @@
             user-select: none; /* elimina seleccion/edición de texto */
         }
 
+        
         .left-title h4 {
-            padding-left: 13px;
+            padding-left: 10px;
             animation: move-left-title 4s linear infinite;
         }
 
 
         .right-title h4 {
-            padding-right: 13px;
+            padding-right: 10px;
             animation: move-right-title 4s linear infinite;
         }
 
@@ -125,6 +126,16 @@
             100% {
                 transform: translateY(100%);
             }
+        }
+
+        .row-top {
+            min-height: 2rem;
+            background: rgba(0, 0, 0, 0.400);
+        }
+
+        .row-bottom {
+            min-height: 2rem;
+            background: rgba(0, 0, 0, 0.400);
         }
     </style>
 
@@ -242,10 +253,11 @@
         <!-- ======= Projects Section ======= -->
         <div class="box-projects  bg-dark">
 
+            <div class="row row-top"></div>
             <div class="row">
 
                 <div class="col-1 col-title left-title">
-                    <h4>MIS PROYECTOS</h4>
+                    <h4>PROYECTOS</h4>
                 </div>
 
                 <div class="col-10 ">
@@ -303,11 +315,11 @@
                 </div>
 
                 <div class="col-1 col-title right-title">
-                    <h4>MIS PROYECTOS</h4>
+                    <h4>PROYECTOS</h4>
                 </div>
 
             </div>
-
+            <div class="row row-bottom"></div>
         </div>
         <!-- End Projects Section -->
 
